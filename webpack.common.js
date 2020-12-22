@@ -38,7 +38,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js']
+     extensions: ['.js', '.json', '.ts', '.tsx']
   },
   plugins: [
     new webpack.ProvidePlugin({
