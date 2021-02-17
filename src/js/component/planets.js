@@ -14,7 +14,7 @@ export const Planets = props => {
 					return (
 						<Col className="mt-5" md={4} key={i}>
 							<Card>
-								<Card.Img variant="top" src="https://i.ytimg.com/vi/hK0K0KNtkMQ/maxresdefault.jpg" />
+								<Card.Img variant="top" src="https://s1.1zoom.me/big0/507/_499961.jpg" />
 								<Card.Body>
 									<Card.Title>{planet.name}</Card.Title>
 									<Card.Text>
