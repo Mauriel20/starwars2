@@ -10,7 +10,7 @@ export const Home = () => {
 					<Link to="/characters">
 						<img
 							className="d-block w-100"
-							src="https://images4.alphacoders.com/673/thumb-1920-673740.jpg"
+							src="https://s1.1zoom.me/big0/958/Clone_trooper_Star_Wars_Movies_Helmet_518354_1280x720.jpg"
 							alt="Characters"
 						/>
 					</Link>
@@ -22,11 +22,7 @@ export const Home = () => {
 
 				<Carousel.Item>
 					<Link to="/planetsView">
-						<img
-							className="d-block w-100"
-							src="https://i.pinimg.com/originals/a7/95/96/a79596bdf26a00f6eda7e9e4d10c1e6c.jpg"
-							alt="planets"
-						/>
+						<img className="d-block w-100" src="https://s1.1zoom.me/big0/507/_499961.jpg" alt="planets" />
 					</Link>
 					<Carousel.Caption>
 						<h3>Planets</h3>

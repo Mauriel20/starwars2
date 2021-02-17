@@ -11,7 +11,7 @@ export const Menu = () => {
 				<Link to="/">
 					<Navbar.Brand href="#home">
 						<img
-							src="https://www.vippng.com/png/detail/1-13632_star-wars-logo-png-star-wars-logo-black.png"
+							src="https://www.1zoom.me/big2/2/105880-liolin.jpg"
 							width="70"
 							height="45"
 							className="d-inline-block align-top"
