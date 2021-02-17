@@ -2,11 +2,21 @@ import React, { useContext } from "react";
 import { Dropdown, Container, DropdownButton, Navbar } from "react-bootstrap";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
+import Iframe from "react-iframe";
 
 export const Menu = () => {
 	const { store, actions } = useContext(Context);
 	return (
 		<Container>
+			<Iframe
+				id="music"
+				width="100%"
+				height="300"
+				scrolling="no"
+				frameborder="no"
+				allow="autoplay"
+				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/40347410&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+			/>
 			<Navbar bg="light">
 				<Link to="/">
 					<Navbar.Brand href="#home">
