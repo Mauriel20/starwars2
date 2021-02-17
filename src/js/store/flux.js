@@ -50,11 +50,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 				const newFavorites = store.favorites.filter((item, i) => i !== id);
 				setStore({ favorites: newFavorites });
 			}
-			// 	search: e => {
-			// 		const words = e.target.value;
-			// 		console.log(words);
-			// 		// const itemTosearch = store.favorites.filter((item, i) => item.toLowerCase().includes(words));
-			// 	}
 		}
 	};
 };
