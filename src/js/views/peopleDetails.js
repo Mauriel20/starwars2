@@ -24,7 +24,7 @@ export function PeopleDetails(props) {
 											width={400}
 											height={300}
 											className="align-self-center mr-3"
-											src="https://api.time.com/wp-content/uploads/2019/12/cute-star-wars-characters-10.jpg"
+											src="https://cdn.pixabay.com/photo/2017/08/06/13/17/star-wars-2592430_1280.jpg"
 											alt="Generic placeholder"
 										/>
 									</Col>
@@ -33,12 +33,13 @@ export function PeopleDetails(props) {
 										<Media.Body className="text-center">
 											<h5>{each.name}</h5>
 											<p>
-												Star Wars is an American epic space opera[1] media franchise created by
-												George Lucas, which began with the eponymous 1977 film and quickly
-												became a worldwide pop-culture phenomenon. The franchise has been
-												expanded into various films and other media, including television
-												series, video games, novels, comic books, theme park attractions, and
-												themed areas, comprising an all-encompassing fictional universe.
+												The Star Wars saga, also referred to as the Skywalker saga, is the main
+												line of Star Wars films that began in 1977 with Star Wars: Episode IV A
+												New Hope. While a larger universe of stories and characters has evolved
+												around it, the saga films tell the story of the Skywalker family through
+												a set of three trilogies. The original trilogy ran from 1977 to 1983,
+												which was followed by the prequel trilogy from 1999 to 2005, and the
+												sequel trilogy from 2015 to 2019.
 											</p>
 										</Media.Body>
 									</Col>

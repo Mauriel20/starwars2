@@ -12,7 +12,7 @@ export function PlanetDetails(props) {
 		history.goBack();
 	};
 	return (
-		<Container>
+		<Container id="descri2">
 			<Media className="mt-5">
 				{props.data.map((each, i) => {
 					if (i == intId) {
@@ -24,7 +24,7 @@ export function PlanetDetails(props) {
 											width={400}
 											height={300}
 											className="align-self-center mr-3"
-											src="https://i.redd.it/elmvejoyc7541.png"
+											src="https://cdn.pixabay.com/photo/2019/05/05/11/21/star-wars-4180267_1280.jpg"
 											alt="Generic placeholder"
 										/>
 									</Col>
@@ -32,12 +32,13 @@ export function PlanetDetails(props) {
 										<Media.Body className="text-center">
 											<h5>{each.name}</h5>
 											<p>
-												Star Wars is an American epic space opera[1] media franchise created by
-												George Lucas, which began with the eponymous 1977 film and quickly
-												became a worldwide pop-culture phenomenon. The franchise has been
-												expanded into various films and other media, including television
-												series, video games, novels, comic books, theme park attractions, and
-												themed areas, comprising an all-encompassing fictional universe.
+												The Star Wars saga, also referred to as the Skywalker saga, is the main
+												line of Star Wars films that began in 1977 with Star Wars: Episode IV A
+												New Hope. While a larger universe of stories and characters has evolved
+												around it, the saga films tell the story of the Skywalker family through
+												a set of three trilogies. The original trilogy ran from 1977 to 1983,
+												which was followed by the prequel trilogy from 1999 to 2005, and the
+												sequel trilogy from 2015 to 2019.
 											</p>
 										</Media.Body>
 									</Col>
