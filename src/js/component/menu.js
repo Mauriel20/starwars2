@@ -21,7 +21,7 @@ export const Menu = () => {
 				<Link to="/">
 					<Navbar.Brand href="#home">
 						<img
-							src="https://www.1zoom.me/big2/2/105880-liolin.jpg"
+							src="https://upload.wikimedia.org/wikipedia/commons/3/33/Star_Wars_logo.jpg"
 							width="70"
 							height="45"
 							className="d-inline-block align-top"
@@ -43,7 +43,7 @@ export const Menu = () => {
 									<Dropdown.Item eventKey={i} key={i} onClick={() => actions.deleteFavorite(i)}>
 										{favorite.type == "people" ? (
 											<div>
-												<i className="fas fa-id-card">
+												<i className="fas fa-user-alt">
 													&nbsp;
 													{favorite.name}
 												</i>
