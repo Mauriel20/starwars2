@@ -8,7 +8,7 @@ export const Planets = props => {
 	const { store, actions } = useContext(Context);
 	return (
 		<Container>
-			<h1 className="text-center mt-5">Planets</h1>
+			<h1 className="text-center mt-5 text-white">Planets</h1>
 			<CardDeck>
 				{props.data.map((planet, i) => {
 					return (

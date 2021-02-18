@@ -8,7 +8,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 			favorites: []
 		},
 		actions: {
-			// Use getActions to call a function within a fuction
 			loadPeople: async () => {
 				const url = "https://swapi.dev/api/people/";
 				const response = await fetch(url);
