@@ -9,17 +9,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 		},
 		actions: {
 			loadPeople: async () => {
-				const url = "https://swapi.dev/api/people/";
+				const url = "https://3000-aquamarine-snail-y58vanzu.ws-us03.gitpod.io/character";
 				const response = await fetch(url);
 				const data = await response.json();
-				setStore({ peoples: data.results });
+				setStore({ peoples: data });
 			},
 
 			loadPlanet: async () => {
-				const url = "https://swapi.dev/api/planets/";
+				const url = "https://3000-aquamarine-snail-y58vanzu.ws-us03.gitpod.io/planets";
 				const response = await fetch(url);
 				const data = await response.json();
-				setStore({ planets: data.results });
+				setStore({ planets: data });
 			},
 
 			addFavorite: (name, type) => {
