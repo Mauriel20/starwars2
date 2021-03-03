@@ -7,6 +7,7 @@ import injectContext from "./store/appContext";
 import { Menu } from "./component/menu";
 import { Planets } from "./component/planets";
 import { People } from "./component/people";
+import { login } from "./component/login";
 import { PeopleDetails } from "./views/peopleDetails";
 import { PlanetDetails } from "./views/planetDetails";
 import { Home } from "./component/carousel";
@@ -25,8 +26,12 @@ const Layout = () => {
 	return (
 		<BrowserRouter basename={basename}>
 			<Menu />
+
 			<Switch>
 				<Route exact path="/">
+					{"login"}
+				</Route>
+				<Route exact path="/primera">
 					{loading ? (
 						<Spinner animation="border" role="status">
 							<span className="sr-only">Loading...</span>
@@ -37,6 +42,7 @@ const Layout = () => {
 						</div>
 					)}
 				</Route>
+
 				<Route exact path="/characters">
 					<People data={store.peoples} />
 				</Route>

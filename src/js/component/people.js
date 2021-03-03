@@ -11,7 +11,7 @@ export const People = props => {
 	return (
 		<Container>
 			<h1 className="text-center mt-5 text-white">Characters</h1>
-			{}
+
 			<CardDeck>
 				{props.data.map((people, i) => {
 					return (
