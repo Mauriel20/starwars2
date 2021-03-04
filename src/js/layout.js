@@ -8,6 +8,7 @@ import { Menu } from "./component/menu";
 import { Planets } from "./component/planets";
 import { People } from "./component/people";
 import { Login } from "./component/login";
+import { Singup } from "./component/singup";
 import { PeopleDetails } from "./views/peopleDetails";
 import { PlanetDetails } from "./views/planetDetails";
 import { Home } from "./component/carousel";
@@ -28,7 +29,7 @@ const Layout = () => {
 			<Menu />
 
 			<Switch>
-				<Route exact path="/2">
+				<Route exact path="/principal">
 					{loading ? (
 						<Spinner animation="border" role="status">
 							<span className="sr-only">Loading...</span>
@@ -41,6 +42,9 @@ const Layout = () => {
 				</Route>
 				<Route exact path="/">
 					<Login />
+				</Route>
+				<Route exact path="/singup">
+					<Singup />
 				</Route>
 				<Route exact path="/characters">
 					<People data={store.peoples} />

@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 
-export const Login = () => {
+export const Singup = () => {
 	return (
 		<Container>
 			<Form id="form2">
@@ -22,7 +22,7 @@ export const Login = () => {
 				<Button id="boton-login" variant="primary" type="submit">
 					Login
 				</Button>
-				<Button id="boton-singup" variant="primary" type="submit" href="/singup">
+				<Button id="boton-singup" variant="primary" type="submit" href="/principal">
 					sing-up
 				</Button>
 			</Form>
